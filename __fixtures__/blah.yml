@@ -1,0 +1,14 @@
+# For testing this includes
+# - inline markdown
+# - a null value
+# - multiline
+---
+- col1: |
+    ## **this**
+  col2: is
+  col3: |-
+    text
+    text
+- col1: "`mdast`"
+  col2: hast
+  col3: 
