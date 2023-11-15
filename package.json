@@ -1,0 +1,44 @@
+{
+  "name": "abc",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 12"
+  },
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Kai Hao",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "prepare": "npm run build && npm test -- run"
+  },
+  "dependencies": {
+    "hast-util-to-html": "^9.0.0",
+    "mdast-util-from-markdown": "^2.0.0",
+    "mdast-util-to-hast": "^13.0.2",
+    "rehype-stringify": "^10.0.0",
+    "remark-directive": "^3.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.0.0",
+    "unist-util-visit": "^5.0.0",
+    "yaml": "^2.3.3"
+  },
+  "devDependencies": {
+    "mdast": "^3.0.0",
+    "remark": "^15.0.1",
+    "vfile": "^6.0.1",
+    "vitest": "^0.34.6"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}

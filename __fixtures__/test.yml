@@ -1,0 +1,15 @@
+# Most inline styling works.
+# Cannot do hard breaks.
+---
+- first column: |
+    ## H2 header
+  second column: |-
+    **bold**
+  third column: |-
+    multiple
+    lines
+- first column: "`quoted code font`"
+  second column: |-
+    *italics*
+  third column: >
+    [random link](file.md)
