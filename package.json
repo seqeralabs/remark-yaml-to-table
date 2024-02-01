@@ -21,7 +21,6 @@
     "yaml": "^2.3.3"
   },
   "devDependencies": {
-    "mdast": "^3.0.0",
     "rehype-stringify": "^10.0.0",
     "remark": "^15.0.1",
     "remark-rehype": "^11.1.0",
