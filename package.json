@@ -13,6 +13,7 @@
   "scripts": {
     "test": "vitest"
   },
+  "main": "src/index.js",
   "dependencies": {
     "mdast-util-from-markdown": "^2.0.0",
     "remark-directive": "^3.0.0",
